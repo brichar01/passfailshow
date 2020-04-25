@@ -4,7 +4,7 @@ let tests = 0;
 function returnPassImage() {
   tests = tests+1;
   app.innerHTML   = `
-    <img src="https://s3-ap-southeast-2.amazonaws.com/rbriot.com.au/PassFailItems/Fail/${tests}.jpg"/>
+    <img src="https://rbriot.com.au/PassFailItems/Pass/${tests}.jpg"/>
     <div>${tests}<div/>
   `
 }
@@ -12,7 +12,7 @@ function returnPassImage() {
 function returnFailImage() {
   tests = tests+1;
   app.innerHTML   = `
-    <img src="https://s3-ap-southeast-2.amazonaws.com/rbriot.com.au/PassFailItems/Fail/${tests}.jpg"/>
+    <img src="https://rbriot.com.au/PassFailItems/Fail/${tests}.jpg"/>
     <div>${tests}<div/>
   `
 }
